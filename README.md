@@ -29,10 +29,8 @@ music-player/
 ├── index.html          # Page structure & markup
 ├── style.css            # Styling, layout, and responsive design
 ├── script.js             # Player logic (play, pause, playlist, autoplay, etc.)
-├── assets/
-│   ├── audio/            # Song files (song1.mp3 … song5.mp3)
-│   └── images/            # Logo / cover images (if stored locally)
-└── README.md
+└── assets/
+    └── audio/            # Song files (song1.mp3 … song5.mp3)
 ```
 
 ---
