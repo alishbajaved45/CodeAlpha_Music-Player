@@ -1,6 +1,6 @@
 /* =========================================================
    SONG DATA
-   Place your MP3 files inside /assets/audio and update the
+   Place your MP3 files inside /audio and update the
    paths below to match your files.
 ========================================================= */
 const songs = [
@@ -8,35 +8,35 @@ const songs = [
     title: "Dream It Possible",
     artist: "Delacey",
     duration: "3:24",
-    src: "assets/audio/song1.mp3",
+    src: "audio/song1.mp3",
     cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSShxzgNDr5FKIZfhEKsuzEbFV1dTsDcbwg6IFXs4FA&s=10"
   },
   {
     title: "Someone You Loved",
     artist: "Lewis Capaldi",
     duration: "3:02",
-    src: "assets/audio/song2.mp3",
+    src: "audio/song2.mp3",
     cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwv5NCs8che_ZAN8h40Ly4RUAupQphuI2pDpil-ipjQ&s"
   },
   {
     title: "Bad Liar",
     artist: "Imagine Dragons",
     duration: "3:20",
-    src: "assets/audio/song3.mp3",
+    src: "audio/song3.mp3",
     cover: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&h=500&fit=crop"
   },
   {
     title: "Believer",
     artist: "Imagine Dragons",
     duration: "3:24",
-    src: "assets/audio/song4.mp3",
+    src: "audio/song4.mp3",
     cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36883JkDrw3qI-XT47-rY0n-0POQWveWMqpLIwpAIbg&s=10"
   },
   {
     title: "On My Way",
     artist: "Alan Walker",
     duration: "3:13",
-    src: "assets/audio/song5.mp3",
+    src: "audio/song5.mp3",
     cover: "https://i1.sndcdn.com/artworks-000525815001-4e79a3-t500x500.jpg"
   }
 ];
@@ -286,7 +286,7 @@ function toggleAutoplay() {
 ========================================================= */
 function handleAudioError() {
   setPlayingState(false);
-  showStatus(`"${songs[currentIndex].title}" couldn't be loaded. Add the file to the /assets/audio folder to play it.`);
+  showStatus(`"${songs[currentIndex].title}" couldn't be loaded. Add the file to the /audio folder to play it.`);
 }
 
 function handleCoverError() {
